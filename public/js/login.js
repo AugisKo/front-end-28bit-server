@@ -63,3 +63,13 @@ submitDOM.addEventListener('click', submitFormInfo);
 // showMessage('info', 'Labas');
 // showMessage('success', 'Tau pavyko!');
 // showMessage('error', 'Kazkur yra klaida!');
+
+//function responseAction(response) {
+//    try {
+//        const responseObject = JSON.parse(response);
+//        if (responseObject.error) {
+//            localStorage.removeItem('login-token');
+//            document.cookie = 'login-token='
+//            return showMessage('error', responseObject.error)
+//        }
+//        document.cookie = 'login-token=' + responseObject.token;
