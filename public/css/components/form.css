@@ -13,6 +13,7 @@
   transition: all 1s;
 }
 .form-messages.show {
+  display: flex;
   padding: 10px 0;
   height: auto;
   opacity: 1;
